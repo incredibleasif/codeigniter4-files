@@ -24,7 +24,7 @@
         "codeigniter4/authentication-implementation": "^1.0",
         "enyo/dropzone": "^6.0",
         "tatter/exports": "^3.0",
-        "tatter/frontend": "^1.0",
+        "tatter/frontend": "dev-main",
         "tatter/permits": "^3.0",
         "tatter/preferences": "^1.0",
         "tatter/thumbnails": "^2.0"
@@ -38,6 +38,10 @@
         "tatter/audits": "Adds logging for user changes to Files database rows."
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/incredibleasif/codeigniter4-frontend"
+        },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
