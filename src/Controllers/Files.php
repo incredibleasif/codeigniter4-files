@@ -193,7 +193,7 @@ class Files extends Controller
             return $this->failure(403, lang('Files.notPermitted'));
         }
 
-        return view('Tatter\Files\Views\new');
+        return view('Tatter\Files\Views\new',['layout'=>'default']);
     }
 
     /**
